@@ -5,16 +5,20 @@ import Nav from "./function base/Navbar"
 import Image from "./function base/Image"
 import Footer from "./Footer"
 import Home from "./Class Base Comp/Home"
-
+import Parent from "./Props/Parent.jsx"
 
 // import Index1 from "./Sample"
 
 createRoot(document.getElementById("root")).render(
 <>
-<App/>
+ <App/>
 <Nav />
 <Image/>
 <Footer/>
-<Home/>
+<Home/> 
 
-</>)
+<Parent/>
+</>
+
+
+)
